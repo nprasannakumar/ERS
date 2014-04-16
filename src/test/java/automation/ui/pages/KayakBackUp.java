@@ -1,20 +1,16 @@
 
 	
-	package automation.ui;
+	package automation.ui.pages;
 
-	import java.util.ArrayList;
-	import java.util.HashSet;
 	import java.util.List;
-	import java.util.concurrent.TimeUnit;
 
-	import org.openqa.selenium.By;
+  import org.openqa.selenium.By;
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.WebElement;
-	import org.openqa.selenium.support.ui.Select;
-	import org.openqa.selenium.support.FindBy;
+  import org.openqa.selenium.support.FindBy;
 	import org.openqa.selenium.support.PageFactory;
 
-	public class KayakPage extends RootClass {
+	public class KayakBackUp extends RootClass {
 		
 		private WebDriver driver;
 		
@@ -43,7 +39,7 @@
 		private WebElement unselectElement;
 		
 		
-		public KayakPage(WebDriver driver){
+		public KayakBackUp(WebDriver driver){
 			super(driver);
 			this.driver = driver;
 			PageFactory.initElements(driver, this);

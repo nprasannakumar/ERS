@@ -1,4 +1,4 @@
-package automation.ui;
+package automation.ui.pages;
 
 import java.io.FileWriter;
 import java.io.IOException;
